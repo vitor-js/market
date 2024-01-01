@@ -20,9 +20,6 @@ config :moqueca_payment, MoquecaPaymentWeb.Endpoint,
   secret_key_base: "0ZnSOv2kaLla2rOTZbElcQhnGh9jNfExysE1VVI1/XgHZCZkrKlHcIYrwQajpuZs",
   server: false
 
-# In test we don't send emails.
-config :moqueca_payment, MoquecaPayment.Mailer, adapter: Swoosh.Adapters.Test
-
 # Print only warnings and errors during test
 config :logger, level: :warn
 
